@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "edu.uci.ics.fabflixmobile"
-        minSdkVersion 33
+        minSdkVersion 30
         targetSdkVersion 33
         versionCode 1
         versionName "1.0"
