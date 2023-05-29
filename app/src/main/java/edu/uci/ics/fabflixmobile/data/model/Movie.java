@@ -7,9 +7,14 @@ public class Movie {
     private final String name;
     private final short year;
 
-    public Movie(String name, short year) {
+    private final String[] actors;
+    private final String[] genres;
+
+    public Movie(String name, short year, String[] actors, String[] genres) {
         this.name = name;
         this.year = year;
+        this.actors = actors;
+        this.genres = genres;
     }
 
     public String getName() {
@@ -18,5 +23,27 @@ public class Movie {
 
     public short getYear() {
         return year;
+    }
+
+    public String getActors() {
+        String actorsString = "";
+        for(int i = 0; i < actors.length; i++){
+            if (i >=3){
+                break;
+            }
+            actorsString += actors[i] + ", ";
+        }
+        return actorsString;
+    }
+
+    public String getGenres() {
+        String genresString = "";
+        for(int i = 0; i < genres.length; i++){
+            if (i >=3){
+                break;
+            }
+            genresString += genres[i] + ", ";
+        }
+        return genresString;
     }
 }
