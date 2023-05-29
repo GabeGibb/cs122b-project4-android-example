@@ -1,5 +1,5 @@
 package edu.uci.ics.fabflixmobile.data.model;
 
 public class Url {
-    public static String baseUrl = "http://10.0.2.2:8080/cs122b_project1_gg_war_exploded";
+    public static String baseUrl = "https://ec2-54-157-254-218.compute-1.amazonaws.com:8443/cs122b-project1-gg";
 }
