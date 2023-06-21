@@ -1,6 +1,6 @@
 ## Android Fablix
 This is an android app that was built off a template that interacted with the endpoints to my version of Fablix.
-https://github.com/GabeGibb/fablix
+[https://github.com/GabeGibb/fablix](https://github.com/GabeGibb/Fablix-Public/tree/main)
 # Images
 
 
